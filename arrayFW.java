@@ -1,7 +1,7 @@
-import java.util.ArrayList;
+import java.util.LinkedList;
 public class arrayFW {
     public static void main(String []args){
-        ArrayList<Integer> no = new ArrayList<>();
+        LinkedList<Integer> no = new LinkedList<>();
         no.add(1);
         no.add(2);
         System.out.println(no);
@@ -13,7 +13,7 @@ public class arrayFW {
 
         no.add(1,50); 
         System.out.println(no);
-        ArrayList<Integer> n = new ArrayList<>();
+        LinkedList<Integer> n = new LinkedList<>();
         n.add(120);
         n.add(130);
         no.addAll(1,n);
@@ -25,7 +25,7 @@ public class arrayFW {
 
         System.out.println(no.get(1));
 
-        //to remove element from ArrayList
+        //to remove element from LinkedList
         
         no.remove(0);
         System.out.println(no);
