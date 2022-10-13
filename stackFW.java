@@ -1,7 +1,7 @@
 import java.util.Stack;
 public class stackFW {
     public static void main(String []args){
-        Stack<Integer> no = new Stack<>((Comparator.reverseOrder());
+        Stack<Integer> no = new Stack<>();
 
 
         // to push or insert element in stack

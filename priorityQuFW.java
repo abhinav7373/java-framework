@@ -2,7 +2,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 public class priorityQuFW {
     public static void main(String []args){
-        Queue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
+        Queue<Integer> pq = new PriorityQueue<>();
   // for max heap we use comparator 
 
         // it using heap concept min heap
