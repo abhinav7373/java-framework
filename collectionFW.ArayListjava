@@ -1,0 +1,32 @@
+import java.util.Collections;
+import java.util.ArrayList;
+public class collectionFW {
+    public static void main(String []args){
+        ArrayList<Integer> no = new ArrayList<>();
+        no.add(12);
+        no.add(32);
+        no.add(5);
+        no.add(22);
+        System.out.println(Collections.min(no));
+        Collections.sort(no);
+        System.out.print(no);
+    }
+     for any index we use .get() ; 
+     eg l.get(0);
+     for print using for .size() instread of .length 
+
+         
+         for adding at index we use l1( index , value);
+    for change any index value we use set method use set(index  , value)
+      \\ to remove any element we use .remove(index)
+        \ to remove any element we use .remove(Integer.ValueaOf(value)
+                                               
+       \\ to check element is in arraylist or not we use 
+  
+                                               .contains(Integer.valueOf(value); it will return true or false
+        collections class 
+contain
+  .min .max .reverse                                      
+                                                         
+ to print sorting in reverse order we use comparter in arraylist
+ syntax = (list,Collections.reverseOrder())
